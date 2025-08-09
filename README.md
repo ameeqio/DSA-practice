@@ -1,2 +1,2 @@
 # DSA-practice
-collection of all my dsa problems.
+A collection of my DSA problem solutions in C++
