@@ -47,7 +47,7 @@ double pow(double x, int n)
 int main()
 {
     double x = 2.00000;
-    int n = -2;
+    int n = -4;
 
     cout << x << " raised to the power " << n << " is : " << pow(x, n) << endl;
     return 0;
