@@ -7,7 +7,7 @@ vector<int> pairSumOpt(vector<int> nums, int targetSum)
     int i = 0, j = nums.size() - 1;
     int pairSum;
 
-    vector<int> id;
+    vector<int> id(2,-1);
 
     while (i < j)
     {
@@ -23,8 +23,8 @@ vector<int> pairSumOpt(vector<int> nums, int targetSum)
         }
         else
         {
-            id.push_back(i);
-            id.push_back(j);
+            id[0] = i;
+            id[1] = j;
             return id;
         }
     }
