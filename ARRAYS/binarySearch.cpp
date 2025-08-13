@@ -25,12 +25,13 @@ int binarySearch(vector<int> &nums, int target)
         }
     }
 
+    //element can't be found
     return -1;
 }
 
 int main()
 {
-    vector<int> nums = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+    vector<int> nums = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91}; // array must be sorted
     int target = 23;
 
     int result = binarySearch(nums, target);
